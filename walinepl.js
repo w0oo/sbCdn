@@ -5,8 +5,8 @@ Waline.init({
       emoji: [
       'https://unpkg.com/@waline/emojis@1.0.1/bilibili',
       ],
-        
-      string: ['nick'],
+
+      login: 'force',
 
       imageUploader: function (file) {
           let formData = new FormData();
