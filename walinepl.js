@@ -23,5 +23,3 @@ Waline.init({
             .then((resp) => resp.data.links.url);
         },
       });
-
-});
