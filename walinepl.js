@@ -13,10 +13,10 @@ Waline.init({
           let headers = new Headers();
 
           formData.append('file', file);
-          headers.append('Authorization', '11bab3a0fddbc07c302a1a6cdd595e32');
+          headers.append('Authorization', '1bJbwlqBfnggmOMEZqXT5XusaIwqiZjCDs7r1Ob5');
           headers.append('Accept', 'application/json');
 
-          return fetch('https://imgtp.com', {
+          return fetch('https://pic.xywm.ltd/api/v1', {
             method: 'POST',
             headers: headers,
             body: formData,
