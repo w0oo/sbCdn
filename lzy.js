@@ -4,7 +4,7 @@ function query(selector) {
 	var io = new IntersectionObserver(function(items) {
 	    items.forEach(function(item) {
 		var target = item.target;
-		if(target.getAttribute('src') == 'images/loading.gif') {
+		if(target.getAttribute('src') == 'https://sb-cdn.vercel.app/umpt/loading.png') {
 		    target.src = target.getAttribute('data-src');
 		}
 	    })
