@@ -7,7 +7,7 @@ Waline.init({
       ],
 
       login: 'force',
-
+     
       imageUploader: function (file) {
           let formData = new FormData();
           let headers = new Headers();
@@ -16,7 +16,7 @@ Waline.init({
           headers.append('Authorization', '');
           headers.append('Accept', 'application/json');
 
-          return fetch('https://pic.xywm.ltd/api/v1', {
+          return fetch('https://img.rickroll.cc/api/v1', {
             method: 'POST',
             headers: headers,
             body: formData,
