@@ -22,6 +22,6 @@ Waline.init({
             body: formData,
           })
             .then((resp) => resp.json())
-            .then((resp) => resp.data.links);
+            .then((resp) => resp.data.links.url);
         },
       });
