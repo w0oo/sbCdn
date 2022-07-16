@@ -1,5 +1,3 @@
-<div id="waline"></div>
-<script>
 const waline = Waline.init({
     el: '#waline',
     serverURL: 'https://minefile-zyfxz.vercel.app',
@@ -21,4 +19,3 @@ const waline = Waline.init({
     },
     copyright: false,
   });
-</script>
