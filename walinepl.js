@@ -1,13 +1,13 @@
 <div id="waline"></div>
 <script>
-  Waline({
+const waline = Waline.init({
     el: '#waline',
     serverURL: 'https://minefile-zyfxz.vercel.app',
     emoji: ['https://unpkg.com/@waline/emojis@1.0.1/bilibili'],
     dark: 'auto',
     lang: 'zh-CN',
     login: 'force',
-    uploadImage: function(file) {
+    imageUploader : function(file) {
       const formData = new FormData();
       formData.append('file', file);
       // formData.append('strategy_id', 0); // 可选策略ID
