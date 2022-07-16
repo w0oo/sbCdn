@@ -13,10 +13,10 @@ Waline.init({
           let headers = new Headers();
 
           formData.append('file', file);
-          headers.append('Authorization', '11bab3a0fddbc07c302a1a6cdd595e32');
+          headers.append('Authorization', '');
           headers.append('Accept', 'application/json');
 
-          return fetch('https://imgtp.com/api/upload', {
+          return fetch('https://img.rickroll.cc/api/v1/upload', {
             method: 'POST',
             headers: headers,
             body: formData,
