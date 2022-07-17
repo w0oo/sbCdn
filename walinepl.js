@@ -11,7 +11,7 @@ const waline = Waline.init({
       // formData.append('strategy_id', 0); // 可选策略ID
       return fetch('https://pic.xywm.ltd/api/v1/upload', {
         headers: {
-          'Authorization': 'Bearer 22|IE7HLpIuXe9kJPr2sMQOamDlZLpqMSWftpDmrwgT'
+        //  'Authorization': 'Bearer 22|IE7HLpIuXe9kJPr2sMQOamDlZLpqMSWftpDmrwgT'
         },
         method: 'POST',
       body: formData
