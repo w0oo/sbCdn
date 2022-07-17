@@ -9,9 +9,9 @@ const waline = Waline.init({
       const formData = new FormData();
       formData.append('file', file);
       // formData.append('strategy_id', 0); // 可选策略ID
-      return fetch('https://7bu.top/api/v1/upload', {
+      return fetch('https://pic.xywm.ltd/api/v1/upload', {
         headers: {
-          'Authorization': 'Bearer 188|JhcKLTntWgVIo4s7HlElnhvNS0OpEqFdjS4uRmQk'
+          'Authorization': ''
         },
         method: 'POST',
       body: formData
