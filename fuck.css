@@ -1,0 +1,12 @@
+main{margin: 5px;}
+.btn-primary{float: right;}
+.row{margin:5px;margin-top: 15px;}
+@media screen and (max-width: 950px) 
+{ .img-fluid{ width:50%; height:auto; } 
+.scroll{overflow: scroll;height:100px;margin: 10px;}}
+@media screen and (max-width:750px) { .img-fluid{ width:100%}
+.scroll{overflow: scroll;height:200px;margin: 5px;} }
+p{margin-top:5px;margin-bottom: 5px;}
+.wl-count{display: none;}
+a.wl-action{display: none;}
+button.wl-action[title="表情包"] {display: none; }
